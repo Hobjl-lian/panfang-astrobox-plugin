@@ -1,0 +1,17 @@
+{
+  "name": "盘坊视频表盘",
+  "icon": "icon.png",
+  "version": "0.1.1",
+  "description": "把盘坊的视频表盘制作页接进 AstroBox：选视频、截取片段，生成后直接安装到手表。需要 AstroBox 2.2.6 或更高版本。",
+  "author": "Hobjl",
+  "website": "https://hobjl-shop.top",
+  "entry": "panfang_video_plugin.wasm",
+  "wasi_version": 3,
+  "api_level": 4,
+  "permissions": [
+    "browser",
+    "queue",
+    "device"
+  ],
+  "additional_files": []
+}
